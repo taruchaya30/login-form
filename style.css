@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    
+
+    background-image: url(https://starwalk.space/gallery/images/what-is-space/1920x1080.jpg);
+    background-size: cover;
+    color: white;
+
+}
+.container{
+    width: 28vw;
+    height: 50vh;
+    text-align: center;
+    padding: 10px;
+    margin-top: 7%;
+    margin-right: 20%;
+    background-image: url(https://t4.ftcdn.net/jpg/02/97/05/99/360_F_297059985_lRqYm1uVpgvHb9ecxKQnZDeM7shC9Sol.jpg);
+    background-size: cover;
+    opacity: 0.8;
+
+ 
+}
+form{
+    margin-top: 10px;
+    padding: 30px;
+    text-align: left;
+   
+}
+input{
+     margin: 10px;
+     padding: 3px;
+     width: 18vw;
+     height: 2vh;
+
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.animate{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+#one{
+    width: 90px;
+    height: 30px;
+    background-color: #0077b6;
+    margin-top: 35px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin-left: 5%;
+    position: absolute;
+    animation: rocket 6s linear infinite;
+    
+}
+@keyframes rocket{
+    0%{
+        bottom: 0;
+        opacity: 1;
+    }
+    100%{
+        bottom: 100%;
+        opacity: 0;
+    }
+}
+button:hover{
+    border: 3px solid black;
+    cursor: pointer;
+}
+#two{
+    width: 90px;
+    height: 35px;
+    background-color: #0077b6;
+    margin-top: 40px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#heading{
+    width: 120px;
+    height: 35px;
+    background-color:whitesmoke;
+    margin-top: 40px;
+    margin-left: 62%;
+    font-size: small;
+    border-radius: 14px;
+}
+
